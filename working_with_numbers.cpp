@@ -16,7 +16,7 @@ int main()
 {
     
 
-    cout << fmax(3,10);
+    cout << fmin(3,10);
 
     return 0;
 }
