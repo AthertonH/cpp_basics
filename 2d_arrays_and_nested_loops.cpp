@@ -15,7 +15,7 @@ int main()
         for(int j = 0; j < 2; j++){
             cout << numberGrid[i][j];
 
-        cout << endl
+        cout << endl;
         }
     }
 
