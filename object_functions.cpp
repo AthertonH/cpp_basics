@@ -13,7 +13,7 @@ class Student{
         }
 
         bool hasHonors(){
-            if(gpa >= 3.5){
+            if(gpa >= 2.0){
                 return true;
             }
             return false;
@@ -27,7 +27,7 @@ int main()
     Student student1("Jim", "Business", 2.4);
     Student student2("Harrison", "Computer Science", 3.7);
 
-    cout << student1.hasHonors();
+    cout << student2.hasHonors();
 
     return 0;
 }
